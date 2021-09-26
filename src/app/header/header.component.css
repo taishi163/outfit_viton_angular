@@ -1,0 +1,12 @@
+/* Try onボタンの設定 */
+.flex{
+  padding:50px 0;
+  display:flex;
+  justify-content:center;
+}
+.button{
+  background:white;
+  padding:1em 1em;
+  border:black 2px solid;
+  text-decoration:none;
+}

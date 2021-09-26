@@ -1,0 +1,55 @@
+a {
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+li {
+  margin: 2rem 0;
+}
+/* メニュー */
+nav {
+  background: #0bd;
+  position: absolute;
+  z-index: 1;
+  top: 0rem;
+  right: 0;
+  overflow-x: hidden;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* 画面領域の設定 */
+.box {
+  width: 100%;
+  height: 100%;
+  border: 2px dashed #666;
+  display: flex;
+}
+
+.query{
+  width: 50%;
+  height: 100%;
+    background-color: #fff4c3;
+    border: 3px solid #ff8410;
+}
+.ref{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+    background-color: #fff4c3;
+    border: 3px solid #ff8410;
+}
+.ref-top{
+  width: 100%;
+  height: 50%;
+    background-color: #fff4c3;
+    border: 3px solid #ff8410;
+}
+.ref-bottom{
+  width: 100%;
+  height: 50%;
+    background-color: #fff4c3;
+    border: 3px solid #ff8410;
+}

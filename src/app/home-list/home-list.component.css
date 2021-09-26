@@ -1,0 +1,9 @@
+/*  fakeimgのリスト設定 */
+[class^="fake"] {
+	margin-bottom: 20px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+.left img { width: 32%; }

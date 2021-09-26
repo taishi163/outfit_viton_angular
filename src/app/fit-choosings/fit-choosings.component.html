@@ -1,0 +1,31 @@
+<nav>
+  <app-fit-choosing-header></app-fit-choosing-header>
+  <div class="box">
+
+    <!--  QUERY_IMGの選択 -->
+    <div class="query">
+      <input type="file" style="display: none" #fileInput accept="image/*" (change)="onChangeFileInput()" />
+      <button mat-raised-button color="primary" class="file-select-button" (click)="onClickFileInputButton()">
+       <mat-icon>attach_file</mat-icon>
+        ファイルを選択
+      </button>
+      <p class="file-name" *ngIf="!file; else fileName">ファイルが選択されていません</p>
+      <ng-template #fileName>
+        <p class="file-name">{{ file?.name }}</p>
+      </ng-template>
+    </div>
+
+
+    <div class="ref">
+      <div class="ref-top">
+        <p>bbbbbbbbbbb</p>
+      </div>
+
+      <div class="ref-bottom">
+        <p>ccccccccccc</p>
+      </div>
+
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>
